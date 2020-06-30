@@ -23,4 +23,16 @@ $ npm start
 $ npm run build
 ... create files in /dist
 ```
+## How to add Embedded widgets to you website?
+- Add /dist/widget.js file to your project.
+- import widget.js file.
+  ```
+  <script src="./widget.js"></script>
+  ```
+- Mount EmbeddableWidget.
+```
+` <script>
+      EmbeddableWidget.mount();
+  </script>
+```
 

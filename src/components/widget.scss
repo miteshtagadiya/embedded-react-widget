@@ -1,0 +1,50 @@
+.docked-widget-button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+}
+
+.docked-widget {
+  position: fixed;
+  bottom: 0px;
+  right: 50px;
+  bottom: 50px;
+  z-index: 9999;
+}
+
+.dock {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background: white;
+  background-color: #33323c;
+  color: #2fdab7;
+}
+
+.cleanslate pre {
+  white-space: pre !important;
+}
+
+.slide-tl {
+  -webkit-animation: slide-tl 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-tl 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+
+@keyframes slide-tl {
+  0% {
+    -webkit-transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    -webkit-transform: translateY(-20px) translateX(-20px);
+    transform: translateY(-20px) translateX(-20px);
+  }
+}

@@ -1,4 +1,4 @@
-<h1>Embeddable React Widget</h1>
+<h1>Embedded React Widget</h1>
 
 ## Demo
 

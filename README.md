@@ -35,4 +35,8 @@ $ npm run build
       EmbeddableWidget.mount();
   </script>
 ```
+## Acknowledgments
+I found helpful guidance in this project from the following site:
+
+https://github.com/seriousben/embeddable-react-widget
 

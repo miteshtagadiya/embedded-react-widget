@@ -1,4 +1,3 @@
-<div align="center">
 <h1>Embeddable React Widget</h1>
 
 ## Demo

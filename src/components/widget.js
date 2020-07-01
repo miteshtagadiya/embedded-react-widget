@@ -5,7 +5,15 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable react/state-in-constructor */
 import React, { Component } from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './widget.scss';
+
+library.add(
+  fas,
+  // more icons go here
+);
 
 class Widget extends Component {
   state = {
@@ -62,7 +70,11 @@ class Widget extends Component {
           onClick={this.handleToggleOpen}
           onKeyPress={this.handleToggleOpen}
         >
-          {showDock ? '📞' : 'X'}
+          {showDock ? (
+            <FontAwesomeIcon icon={['fas', 'phone-alt']} />
+          ) : (
+            <FontAwesomeIcon icon={['fas', 'times']} />
+          )}
         </div>
       </div>
     );

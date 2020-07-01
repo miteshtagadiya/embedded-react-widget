@@ -86,4 +86,16 @@ module.exports = [{
     libraryExport: 'default',
     libraryTarget: 'window',
   },
+},
+{
+  ...defaultConfig,
+  entry: './src/components/embeddable-widget.js',
+  output: {
+    path: publicDir,
+    publicPath: '/',
+    filename: 'widget.js',
+    library: 'EmbeddableWidget',
+    libraryExport: 'default',
+    libraryTarget: 'window',
+  },
 }];

@@ -106,7 +106,7 @@ class Widget extends Component {
                 <label
                   style={{ fontSize: 18, fontWeight: 'bold', color: '#2fdab7' }}
                 >
-                  📞 {this.state.testScript.phone_number}
+                  <FontAwesomeIcon icon={['fas', 'times']} /> {this.state.testScript.phone_number}
                 </label>
               </div>
             </div>

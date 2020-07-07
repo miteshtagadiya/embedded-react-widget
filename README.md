@@ -1,5 +1,7 @@
 <h1>Embedded React Widget</h1>
 
+- Embedded React Widget to deploy on your website.
+
 ## Demo
 
 <img width="600px" src="./demo.gif" />
